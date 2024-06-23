@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+</head>
+<body>
+    <!-- Article element -->
+    <article>
+        <h1>This is an Article</h1>
+        <p>Content of the article goes here.</p>
+    </article>
+
+    <!-- Aside element -->
+    <aside>
+        <h2>Aside Content</h2>
+        <p>Content for the aside section.</p>
+    </aside>
+
+    <!-- Hyperlink -->
+    <p><a href="https://example.com">Visit Example</a></p>
+
+    <!-- Audio element -->
+    <audio controls>
+        <source src="./[iSongs.info] 01 - Kalaavathi.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Bold text -->
+    <p>This is <strong>bold text</strong>.</p>
+
+    <!-- Base URL -->
+    <base href="https://example.com/">
+
+    <!-- Frame and anchor -->
+    <p><a href="targetpage.html" target="frameName">Open in frame</a></p>
+    <iframe name="frameName" src="about:blank"></iframe>
+
+    <!-- Override text direction -->
+    <p dir="rtl">Text with right-to-left direction.</p>
+
+    <!-- Quoted section -->
+    <blockquote>
+        <p>Here is a quoted text from another source.</p>
+    </blockquote>
+
+    <!-- Document body -->
+    <body>
+        <p>Content of the document's body.</p>
+    </body>
+
+    <!-- Single line break -->
+    <p>First line<br>Second line</p>
+
+    <!-- Table caption -->
+    <table>
+        <caption>Table Caption</caption>
+        <tr>
+            <td>Table cell</td>
+            <td>Another cell</td>
+        </tr>
+    </table>
+
+    <!-- Title of the document -->
+    <h1>Title of the Document</h1>
+
+    <!-- Colgroup and column properties -->
+    <table>
+        <colgroup>
+            <col style="background-color: yellow;">
+            <col style="background-color: lightblue;">
+        </colgroup>
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+        </tr>
+    </table>
+
+    <!-- Code element -->
+    <p>Here is some <code>code</code>.</p>
+
+    <!-- Pre-defined options -->
+    <form>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+    </form>
+
+    <!-- Description list -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+    </dl>
+
+    <!-- Deleted text -->
+    <p>This is <del>deleted</del> text.</p>
+
+    <!-- Details element -->
+    <details>
+        <summary>More Details</summary>
+        <p>Additional details the user can expand.</p>
+    </details>
+
+    <!-- Definition of a term -->
+    <dfn>Definition of a term</dfn>
+
+    <!-- Dialog box -->
+    <dialog open>
+        <p>Dialog content goes here.</p>
+    </dialog>
+
+    <!-- Section element -->
+    <section>
+        <h2>Section Title</h2>
+        <p>Section content.</p>
+    </section>
+
+    <!-- Definition list -->
+    <dl>
+        <dt>Term</dt>
+        <dd>Definition</dd>
+    </dl>
+
+    <!-- Emphasized text -->
+    <p>This is <em>emphasized</em> text.</p>
+
+    <!-- External application container -->
+    <object data="externalapp.swf" type="application/x-shockwave-flash">
+        <param name="movie" value="externalapp.swf">
+        Alternative content for browsers that do not support Flash.
+    </object>
+
+    <!-- Form grouping -->
+    <form>
+        <fieldset>
+            <legend>Form Group</legend>
+            <label for="inputField">Input:</label>
+            <input type="text" id="inputField">
+        </fieldset>
+    </form>
+
+    <!-- Figure caption -->
+    <figure>
+        <img src="image.jpg" alt="Description of the image">
+        <figcaption>Figure caption describing the image.</figcaption>
+    </figure>
+
+    <!-- Self-contained content -->
+    <iframe src="embeddedcontent.html"></iframe>
+
+    <!-- Footer -->
+    <footer>
+        <p>Footer content.</p>
+    </footer>
+
+    <!-- Form for user input -->
+    <form>
+        <label for="userInput">Enter text:</label>
+        <input type="text" id="userInput">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Heading -->
+    <h1>Main Heading</h1>
+
+    <!-- Document information -->
+    <head>
+        <meta name="description" content="Description of the document.">
+    </head>
+
+    <!-- Header for a section -->
+    <header>
+        <h2>Section Header</h2>
+    </header>
+
+    <!-- Root of the document -->
+    <html>
+        <head>
+            <title>Root of the Document</title>
+        </head>
+    </html>
+
+    <!-- Text in alternate voice -->
+    <p>This is <i>alternate voice</i> text.</p>
+
+    <!-- Inline frame -->
+    <iframe src="inlineframe.html"></iframe>
+
+    <!-- Image -->
+    <img src="image.jpg" alt="Description of the image">
+
+    <!-- Input control -->
+    <input type="text" value="Input Text">
+
+    <!-- Inserted text -->
+    <p>This is <ins>inserted</ins> text.</p>
+
+    <!-- Keyboard input -->
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+
+    <!-- Key-pair generator field -->
+    <form>
+        <label for="keypair">Key Pair Generator:</label>
+        <keygen id="keypair">
+    </form>
+
+    <!-- Label for an input element -->
+    <form>
+        <label for="inputField">Label:</label>
+        <input type="text" id="inputField">
+    </form>
+
+    <!-- Caption for a fieldset -->
+    <form>
+        <fieldset>
+            <legend>Caption for Fieldset</legend>
+        </fieldset>
+    </form>
+
+    <!-- List item -->
+    <ul>
+        <li>List item</li>
+    </ul>
+
+</body>
+</html>
