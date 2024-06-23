@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Tutorial</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .topnav {
+            width: 100%;
+            background-color: #ffb700;
+            color: white;
+            height: 5;
+            display: flex;
+            justify-content: center;
+            padding-top: 0px;
+
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+        }
+        .topnav a {
+            padding: 14px 20px;
+            display: inline-block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        .topnav a:hover {
+            background-color: #a52a2a;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #220eff;
+            color: white;
+            height: 100vh;
+            padding: 10px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0%;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .sidebar a:hover {
+            background-color: #a52a2a;
+        }
+        .content {
+            margin-left: 220px; /* Adjust to accommodate sidebar width + padding */
+            padding: 20px;
+            flex: 1;
+            background-color: #f0f0f0;
+            overflow-y: auto;
+            margin-top: 5%; /* Adjust to accommodate topnav height */
+            height: calc(100vh - 30%);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#main">Main Page</a>
+        <a href="#careers">Careers</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+    <div class="sidebar">
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#javascript">JavaScript</a>
+        <a href="#jquery">Angular</a>
+        <a href="#ajax">AJAX</a>
+        <a href="#bootstrap">Bootstrap</a>
+        <a href="#angular">Machine Learning</a>
+        <a href="#node">Node JS</a>
+        <a href="#express">Express JS</a>
+        <a href="#mongo">Mongo DB</a>
+    </div>
+    <div class="content">
+        <div id="html" class="section">
+            <h2>HTML Tutorial</h2>
+            <img src="html'.png" alt="HTML Image">
+            <p>HTML is a markup language used for structuring content on the web. It uses a series of elements to enclose or wrap different parts of the content to make it appear or behave in a certain way. The elements are represented by tags in the document.</p>
+        </div>
+        <div id="css" class="section">
+            <h2>CSS Tutorial</h2>
+            <img src="html'.png" alt="CSS Image">
+            <p>CSS (Cascading Style Sheets)
+                CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML. It controls the layout of multiple web pages all at once. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting, and reduce complexity and repetition in the structural content.</p>
+        </div>
+        <div id="javascript" class="section">
+            <h2>JavaScript Tutorial</h2>
+            <img src="javascr.png" alt="JavaScript Image">
+            <p>JavaScript
+                JavaScript is a versatile, high-level programming language primarily used for enhancing web pages, making them interactive and dynamic. It is one of the core technologies of the World Wide Web, alongside HTML and CSS. JavaScript allows for client-side scripting, enabling developers to create engaging user experiences without needing to constantly interact with a server.</p>
+        </div>
+        <div id="jquery" class="section">
+            <h2>Angular</h2>
+            <img src="angular.png" alt="jQuery Image">
+            <p>jAngular
+                Angular is a popular open-source web application framework maintained by Google. It's used for building dynamic web applications and SPAs (Single Page Applications). Angular provides a structured approach to web development with features like data binding, dependency injection, and reusable components. It follows the MVC (Model-View-Controller) architecture where the components represent different parts of the UI and logic.
+                
+                Key features of Angular include:
+                
+                Components: Reusable building blocks with their own CSS styles and HTML templates.
+                Directives: Extending HTML with additional behavior and attributes.
+                Services: Providing logic and functionality shared across components.
+                Routing: Navigating between different views within the application.
+                Dependency Injection: Promoting modularity and testability of the codebase.</p>
+        </div>
+        <div id="ajax" class="section">
+            <h2>Devops</h2>
+            <img src="devops.png" alt="AJAX Image">
+            <p>DevOps
+                DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle while delivering high-quality software continuously. It aims to automate and streamline the process of building, testing, deploying, and monitoring applications. DevOps practices emphasize collaboration between development teams and operations teams to achieve faster development cycles and more reliable releases.
+                
+                Core principles of DevOps include:
+                
+                Continuous Integration (CI): Automating the build and testing of code whenever a developer commits changes to version control.
+                Continuous Delivery (CD): Ensuring that code changes are automatically built, tested, and prepared for release to production.
+                Infrastructure as Code (IaC): Managing and provisioning infrastructure through code and automation tools.
+                Monitoring and Logging: Collecting real-time data and metrics to monitor application performance and detect issues early.
+                Microservices: Architectural approach to building applications as a collection of loosely coupled </p>
+        </div>
+        <div id="bootstrap" class="section">
+            <h2>Bootstrap Tutorial</h2>
+            <img src="boot.jpeg" alt="Bootstrap Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquid aperiam assumenda dolores illo nobis numquam praesentium quas...</p>
+        </div>
+        <div id="angular" class="section">
+            <h2>Machine Learning</h2>
+            <img src="ml.jpeg" alt="Angular JS Image">
+            <p>Machine Learning
+                Machine learning (ML) is a branch of artificial intelligence (AI) that focuses on developing algorithms and statistical models that enable computers to learn from and make decisions or predictions based on data. The core idea is to allow machines to learn automatically without explicit programming. ML algorithms are used extensively in various applications such as image and speech recognition, medical diagnosis, recommendation systems, and predictive analytics.
+                
+                Key concepts in machine learning include:
+                
+                Supervised Learning: Learning from labeled data with defined inputs and outputs.
+                Unsupervised Learning: Finding patterns in data without labeled responses.
+                Reinforcement Learning: Training models to make sequences of decisions through rewards and penalties.
+                Deep Learning: A subset of ML that uses neural networks with many layers to learn representations of data.</p>
+        </div>
+        <div id="node" class="section">
+            <h2>Node JS Tutorial</h2>
+            <img src="node.png" alt="Node JS Image">
+            <p>Node.js
+                Node.js is an open-source, cross-platform runtime environment for executing JavaScript code outside of a web browser. It allows developers to build scalable and efficient server-side applications using JavaScript. Node.js uses an event-driven, non-blocking I/O model, making it lightweight and efficient, suitable for building real-time applications like web servers and APIs.
+                
+                Key features and concepts in Node.js include:
+                
+                Event-driven Architecture: Utilizing events and callbacks to handle asynchronous operations efficiently.
+                npm (Node Package Manager): Largest ecosystem of open-source libraries and tools for Node.js development.
+                Single Threaded, Non-blocking I/O: Handling multiple concurrent connections without threads, using event loop.
+                Scalability: Ability to handle a large number of concurrent connections and requests.
+                Modules: Encapsulation of code into reusable components through modules, managed by npm.
+                These topics form the backbone of modern software development, each playing a crucial role in different aspects of building and deploying applications effectively.</p>
+        </div>
+        <div id="express" class="section">
+            <h2>Express JS Tutorial</h2>
+            <img src="exp.png" alt="Express JS Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquid aperiam assumenda dolores illo nobis numquam praesentium quas...</p>
+        </div>
+    </div>
+</body>
+</html>
